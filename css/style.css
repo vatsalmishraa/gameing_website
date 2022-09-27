@@ -202,27 +202,40 @@ iframe {
     border:0;
     width: 100%;
 }
+.thumbnail
+{
+    border-style: solid;
+    border-color: white;
+    height: 500px;
+    margin: -110px 6% 0px 22%
+}
+.faqm
+{
+    margin-top: -50px;
+}
+
 @media (max-width: 991px) {
     .section-title{
         font-size: 40px;
     }
-    .block-container
+    .win-price
     {
-        margin-left: 11%;
-        /* height: 200px; */
-        /* width: 20%; */
+        margin: 10px 10% 0px 10% !important;
+        text-align: justify;
     }
-    .ogames-container
+    .thumbnail
     {
-        padding: 1rem;
+        margin: 0px 6% 0px 12%;
+        /* align-items: center; */
+        height: 200px;
     }
-    .ogames_img
+    .left-area
     {
-        height: 2rem;
+        display: none;
     }
-    .ogames-incont
+    .faqimg
     {
-        
+        margin-top: -120px;
     }
 
 }
@@ -1226,8 +1239,9 @@ input[type="checkbox"]:checked + label{
     line-height: 20px;
 }
 #todays-winner-section .winner-chart .single-item .win-price{
-    background: #160D96;
-    box-shadow: 0px 4px 8px rgb(12 23 80 / 80%);
+    /* background: #160D96; */
+    /* box-shadow: 0px 4px 8px rgb(12 23 80 / 80%); */
+    margin-left: 100px;
     border-radius: 15px;
     padding: 5px 10px;
 }
@@ -1412,7 +1426,7 @@ input[type="checkbox"]:checked + label{
 
 /* FAQ Activites */
 #faq-section .overlay {
-    margin-top: 180px;
+    margin-top: 25px;
 }
 #faq-section .overlay .section-header p{
     margin: auto 10%;
