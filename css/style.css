@@ -213,7 +213,15 @@ iframe {
 {
     margin-top: -50px;
 }
-
+.blogs-items
+{
+    margin: 0px 10% !important;
+    background-color: transparent !important;
+}
+.desktop-hide
+{
+    display: none;
+}
 @media (max-width: 991px) {
     .section-title{
         font-size: 40px;
@@ -225,17 +233,25 @@ iframe {
     }
     .thumbnail
     {
-        margin: 0px 6% 0px 12%;
+        margin: -40px 6% 0px 15%;
         /* align-items: center; */
         height: 200px;
     }
-    .left-area
+    .faq-img
     {
         display: none;
     }
     .faqimg
     {
         margin-top: -120px;
+    }
+    .desktop-hide
+    {
+        display: block;
+    }
+    .mobile-hide
+    {
+        display: none;
     }
 
 }
@@ -1202,6 +1218,11 @@ input[type="checkbox"]:checked + label{
     padding: 8px 0;
     position: relative;
     overflow: hidden;
+}
+#todays-winner-section .blogs-sec
+{
+    background: transparent;
+    border: none;
 }
 #todays-winner-section .winner-chart .ribbon {
     position: absolute;
@@ -3626,7 +3647,7 @@ input[type="checkbox"]:checked + label{
         line-height: 18px;
     }
     #footer-section .footer-bottom .left-area p {
-        margin: 35px 12px 0;
+        margin: -15px 12px 0;
         line-height: 26px;
         text-align: center;
     }
