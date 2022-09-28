@@ -260,6 +260,12 @@ iframe {
     .sub-title-alt{
         font-size: 12px;
     }
+    .thumbnail
+    {
+        margin: -40px 6% 0px 9%;
+        /* align-items: center; */
+        height: 200px;
+    }
 }
 .section-title span{
     color: var(--primary-color);
