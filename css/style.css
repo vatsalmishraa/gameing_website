@@ -186,10 +186,12 @@ span{
 }
 .title{
     font-family: var(--body-alt-font);
-    color: var(--body-color);
+    color: red;
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 20px;
+    margin-left: 55%;
+    width: 100%;
 }
 .title span {
     font-size: inherit;
@@ -222,6 +224,10 @@ iframe {
 {
     display: none;
 }
+.footer_soc_ic
+{
+    height: 45px;
+}
 @media (max-width: 991px) {
     .section-title{
         font-size: 40px;
@@ -252,6 +258,23 @@ iframe {
     .mobile-hide
     {
         display: none;
+    }
+    .games_div_left
+    {
+        margin: 0px -6% 0px 3% ;
+    }
+    .games-top
+    {
+        bottom: 50px
+    }
+    .footer_soc_ic
+    {
+        height: 45px;
+    }
+    .title
+    {
+        width: 100%;
+        margin-left: 0;
     }
 
 }
@@ -1307,7 +1330,7 @@ input[type="checkbox"]:checked + label{
 
 /* Counter Start */
 #counter-section {
-    background-color: #00003E;
+    /* background-color: #00003E; */
     margin-bottom: -8px;
 }
 #counter-section .single-item span{
@@ -1684,7 +1707,7 @@ input[type="checkbox"]:checked + label{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 10px 0 20px;
+    margin: 0 -3% 0px 20px;
 }
 #footer-section .social-area a img{
     z-index: 1;
